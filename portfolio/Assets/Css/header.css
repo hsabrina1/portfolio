@@ -1,0 +1,55 @@
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Skills Section */
+#skills .skill {
+    margin-top: 20px;
+}
+
+#skills .skill i {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Project Cards */
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+}

@@ -7,10 +7,14 @@
     <link href="./Assets/Css/header.css" rel="stylesheet"
 </head>
 <body>
-<p>Accueil 
-Profil
-Compétences
-Portfolio
-Contact </p>
+
+<ul>
+  <li>Accueil </li>
+  <li>Profil
+      <li>Compétences</li>
+      <li>Portfolio</li>
+      <li>Contact</li>
+  </li>
+</ul>
 </body>
 </html>
