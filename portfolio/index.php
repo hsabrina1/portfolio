@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -12,16 +12,16 @@
 
 <body>
     <!-- Header -->
-    <header>
-        <?php include '_header.php'; ?>
-    </header>
+    <!-- <header> -->
+        <!-- <?php include '_header.php'; ?> -->
+    <!-- </header> -->
 
     <!-- Image de fond -->
     <section>
-        <img src="./Assets/Images/imagedefond.png" alt="Image de fond" class="img-fluid w-100">
+        <img src="./Assets/Images/imagedefond.jpg" alt="Image de fond" class="img-fluid w-100">
         <div class="container text-center">
-            <h1 class="display-4 mt-4">Sabrina HADI</h1>
-            <p> Développeur web </p>
+            <h1 class="display-4 mt-4">Sabrina Hadi</h1>
+            <p>Développeuse web</p>
         </div>
     </section>
 
@@ -36,7 +36,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#about">A propos de moi</a>
+                        <a class="nav-link active" href="#about">À propos de moi</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#skills">Compétences</a>
@@ -52,13 +52,13 @@
         </div>
     </nav>
 
-    <!-- About Section -->
+    <!-- Section À propos -->
     <section id="about" class="py-5">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h2>A propos de moi</h2>
-                    <p class="lead">I am a passionate web developer with experience in building and maintaining responsive websites. My expertise is in HTML, CSS, JavaScript, and PHP.</p>
+                    <h2>À propos de moi</h2>
+                    <p class="lead">Développeuse web passionnée, spécialisée dans la création de sites web réactifs et fonctionnels. J’ai une expérience solide en HTML, CSS, JavaScript et PHP, ce qui me permet de réaliser des projets complets et robustes.</p>
                 </div>
                 <div class="col-lg-6">
                     <img src="assets/images/profile.jpg" alt="Sabrina Hadi" class="img-fluid rounded-circle">
@@ -67,7 +67,7 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
+    <!-- Section Compétences -->
     <section id="skills" class="bg-light py-5">
         <div class="container">
             <h2 class="text-center">Mes compétences</h2>
@@ -76,62 +76,62 @@
                     <div class="skill">
                         <i class="bi bi-code-slash fs-1"></i>
                         <h3>HTML & CSS</h3>
-                        <p>Expert in crafting beautiful and responsive web pages.</p>
+                        <p>Création de pages web attractives et adaptées à tout type d’appareil.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="skill">
                         <i class="bi bi-file-code fs-1"></i>
                         <h3>JavaScript</h3>
-                        <p>Proficient in adding interactivity to websites with JS.</p>
+                        <p>Ajout d’interactivité et dynamisme aux sites pour une meilleure expérience utilisateur.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="skill">
                         <i class="bi bi-server fs-1"></i>
                         <h3>PHP & MySQL</h3>
-                        <p>Experience in backend development and database management.</p>
+                        <p>Développement backend et gestion de bases de données pour des sites fonctionnels et sécurisés.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Section Projets -->
     <section id="projects" class="py-5">
         <div class="container">
-            <h2 class="text-center">Mes Projets</h2>
+            <h2 class="text-center">Mes projets</h2>
             <div class="row">
-                <!-- Project 1 -->
+                <!-- Projet 1 -->
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="assets/images/project1.jpg" class="card-img-top" alt="Project 1">
+                        <img src="assets/images/project1.jpg" class="card-img-top" alt="Projet 1">
                         <div class="card-body">
-                            <h5 class="card-title">Project One</h5>
-                            <p class="card-text">A description of the project goes here. Highlight key features or technologies used.</p>
-                            <a href="#" class="btn btn-primary">View Project</a>
+                            <h5 class="card-title">Projet Un</h5>
+                            <p class="card-text">Ce projet met en avant une interface utilisateur réactive avec une gestion optimale des données côté serveur.</p>
+                            <a href="#" class="btn btn-primary">Voir le projet</a>
                         </div>
                     </div>
                 </div>
-                <!-- Project 2 -->
+                <!-- Projet 2 -->
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="assets/images/project2.jpg" class="card-img-top" alt="Project 2">
+                        <img src="assets/images/project2.jpg" class="card-img-top" alt="Projet 2">
                         <div class="card-body">
-                            <h5 class="card-title">Project Two</h5>
-                            <p class="card-text">A description of the project goes here. Highlight key features or technologies used.</p>
-                            <a href="#" class="btn btn-primary">View Project</a>
+                            <h5 class="card-title">Projet Deux</h5>
+                            <p class="card-text">Un site e-commerce complet avec des fonctionnalités de gestion de panier et de paiement sécurisé.</p>
+                            <a href="#" class="btn btn-primary">Voir le projet</a>
                         </div>
                     </div>
                 </div>
-                <!-- Project 3 -->
+                <!-- Projet 3 -->
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="assets/images/project3.jpg" class="card-img-top" alt="Project 3">
+                        <img src="assets/images/project3.jpg" class="card-img-top" alt="Projet 3">
                         <div class="card-body">
-                            <h5 class="card-title">Project Three</h5>
-                            <p class="card-text">A description of the project goes here. Highlight key features or technologies used.</p>
-                            <a href="#" class="btn btn-primary">View Project</a>
+                            <h5 class="card-title">Projet Trois</h5>
+                            <p class="card-text">Une application web dynamique permettant de gérer des événements en temps réel.</p>
+                            <a href="#" class="btn btn-primary">Voir le projet</a>
                         </div>
                     </div>
                 </div>
@@ -139,10 +139,10 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Section Contact -->
     <section id="contact" class="bg-light py-5">
         <div class="container">
-            <h2 class="text-center">Contact Moi</h2>
+            <h2 class="text-center">Contactez-moi</h2>
             <div class="row">
                 <div class="col-md-8 mx-auto">
                     <form>
@@ -158,7 +158,7 @@
                             <label for="message" class="form-label">Message</label>
                             <textarea class="form-control" id="message" rows="4" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary w-100">Envoi du Message</button>
+                        <button type="submit" class="btn btn-primary w-100">Envoyer le message</button>
                     </form>
                 </div>
             </div>
@@ -168,7 +168,7 @@
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
         <div class="container">
-            <p>&copy; 2024 Sabrina Hadi. All Rights Reserved.</p>
+            <p>&copy; 2024 Sabrina Hadi. Tous droits réservés.</p>
         </div>
     </footer>
 
@@ -176,13 +176,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
